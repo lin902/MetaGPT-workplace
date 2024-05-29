@@ -28,4 +28,4 @@ llm:
   base_url: "https://open.bigmodel.cn/api/paas/v4/chat/completions"  # or forward url / other llm url
   api_key: "YOUR_API_KEY"
 ```
-agent文件下包含了单 智能体单动作，单智能体多动作，智能体（ReAct）以及OSS文件。OSS文件中
+agent文件下包含了单 智能体单动作，单智能体多动作，智能体（ReAct）以及OSS文件。OSS文件中GitTrend_main是爬取分析github热榜，执行完成后分析内容会保存在Codey_response.txt下，再次运行GitTrend_pop就能发送到微信公众号。GitTrend_main2是爬取分析huggingFace上的论文并发送至QQ邮箱。将你的配置在.env中修改即可运行。

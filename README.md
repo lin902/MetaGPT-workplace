@@ -28,3 +28,4 @@ llm:
   base_url: "https://open.bigmodel.cn/api/paas/v4/chat/completions"  # or forward url / other llm url
   api_key: "YOUR_API_KEY"
 ```
+agent文件下包含了单 智能体单动作，单智能体多动作，智能体（ReAct）以及OSS文件。OSS文件中

@@ -17,7 +17,8 @@ pip install -e .
 ```bash
 cd config
 cp config2.yaml key.yaml
-vim key.yaml```
+vim key.yaml
+```
 配置,智谱接口详情[智谱](https://open.bigmodel.cn/dev/api#glm-4)
 
 ```bash
